@@ -1,6 +1,6 @@
 // EXERCÍCIO 35 - DESAFIO FINAL
 
-let precos = [20, 15, 30, 10, 25];
+
 
 // Faça:
 // 1. Percorra o array.
@@ -14,4 +14,22 @@ let precos = [20, 15, 30, 10, 25];
 // Utilize apenas conceitos estudados na revisão.
 
 // Escreva sua solução abaixo:
+
+let precos = [20, 15, 30, 10, 25];
+
+soma = 0;
+for(let i = 0; i < precos.length; i++){
+    console.log(precos[i]);
+    soma += precos[i];
+}
+console.log(`A soma é: ${soma}`);
+
+if(soma >= 100){
+    console.log("Compra acima de R$100 ")
+}
+else {
+    console.log("Compra abaixo de R$100")
+}
+
+
 

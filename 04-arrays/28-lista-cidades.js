@@ -4,3 +4,11 @@
 
 // Escreva sua solução abaixo:
 
+let cidades = [
+    "Osasco",
+    "São Paulo",
+    "Carapicuiba",
+    "Sorocaba",
+    "Indaiatuba"];
+
+console.log(cidades);
