@@ -8,3 +8,12 @@
 
 // Escreva sua solução abaixo:
 
+let valorCompra = 180;
+let valorFrete = 10;
+
+if(valorCompra >= 200){
+    console.log("Frete grátis");
+}
+else{
+    console.log(`Frete de ${valorFrete}R$`);
+}

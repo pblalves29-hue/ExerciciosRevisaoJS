@@ -8,3 +8,10 @@
 
 // Escreva sua solução abaixo:
 
+const produto = "teclado";
+let preco = 120.00
+let quantidade = 2
+
+const valorTotal = (preco * quantidade);
+
+console.log(valorTotal);
